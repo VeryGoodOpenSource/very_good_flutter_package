@@ -6,6 +6,14 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
-    directory: "/"
+    directory: "/src"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/brick/hooks"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "/tool/generator"
     schedule:
       interval: "daily"
