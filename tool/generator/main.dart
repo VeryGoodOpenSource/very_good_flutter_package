@@ -25,16 +25,26 @@ void main() async {
   await Shell.cp(sourcePath, targetPath);
   await Shell.cp(
     p.join('.github', 'PULL_REQUEST_TEMPLATE.md'),
-    p.join(targetPath, '.github', 'PULL_REQUEST_TEMPLATE.md'),
+    p.join(
+      targetPath,
+      'very_good_flutter_package',
+      '.github',
+      'PULL_REQUEST_TEMPLATE.md',
+    ),
   );
   await Shell.cp(
     p.join('.github', 'ISSUE_TEMPLATE'),
-    p.join(targetPath, '.github', 'ISSUE_TEMPLATE'),
+    p.join(
+      targetPath,
+      'very_good_flutter_package',
+      '.github',
+      'ISSUE_TEMPLATE',
+    ),
   );
 
   // Convert Values to Variables
   await Future.wait(
-    Directory(targetPath)
+    Directory(p.join(targetPath, 'very_good_flutter_package'))
         .listSync(recursive: true)
         .whereType<File>()
         .map((_) async {
@@ -88,6 +98,10 @@ void main() async {
       } catch (_) {}
     }),
   );
+
+  await Directory(
+    p.join(targetPath, 'very_good_flutter_package'),
+  ).delete(recursive: true);
 }
 
 class Shell {

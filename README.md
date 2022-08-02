@@ -38,7 +38,7 @@ A Very Good Flutter package created by Very Good Ventures 🦄.
 - ✅ MIT License
 - ✅ Changelog
 
-[coverage_badge]: src/coverage_badge.svg
+[coverage_badge]: src/very_good_flutter_package/coverage_badge.svg
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
 [license_link]: https://opensource.org/licenses/MIT
 [logo_black]: https://raw.githubusercontent.com/VGVentures/very_good_brand/main/styles/README/vgv_logo_black.png#gh-light-mode-only
