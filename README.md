@@ -20,7 +20,7 @@ A Very Good Flutter package created by Very Good Ventures 🦄.
 
 2. Add the brick
 
-   `mason add -g very_good_flutter_package --git-url https://github.com/VeryGoodOpenSource/very_good_flutter_package --git-path brick`
+   `mason add -g very_good_flutter_package`
 
 3. Make a new Flutter package
 
