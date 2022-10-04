@@ -1,3 +1,7 @@
+# 0.1.2
+
+- feat: upgrade to Flutter 3.3.3
+
 # 0.1.1
 
 - feat: upgrade to Flutter 3.3.2 and very_good_analysis 3.1.0
