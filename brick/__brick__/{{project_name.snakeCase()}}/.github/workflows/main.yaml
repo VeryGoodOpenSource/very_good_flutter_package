@@ -18,3 +18,7 @@ jobs:
     with:
       flutter_channel: stable
       flutter_version: 3.3.7
+{{#publishable}}
+  pana:
+    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/pana.yml@v1
+{{/publishable}}

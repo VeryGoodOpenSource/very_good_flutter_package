@@ -1,0 +1,4 @@
+diff --git a/src/very_good_flutter_package/LICENSE "b/src/very_good_flutter_package/{{#publishable}}LICENSE{{\\publishable}}"
+similarity index 100%
+rename from src/very_good_flutter_package/LICENSE
+rename to "src/very_good_flutter_package/{{#publishable}}LICENSE{{\\publishable}}"
