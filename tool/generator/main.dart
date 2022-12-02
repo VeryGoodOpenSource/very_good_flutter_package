@@ -42,6 +42,11 @@ void main() async {
       var file = _;
 
       try {
+        if (p.basename(file.path) == 'LICENSE') {
+          await file.delete(recursive: true);
+          return;
+        }
+
         final contents = await file.readAsString();
         file = await file.writeAsString(
           contents
