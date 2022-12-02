@@ -1,3 +1,7 @@
+# 0.1.4
+
+- docs: remove copyright header and license from generated code
+
 # 0.1.3
 
 - feat: upgrade to Flutter 3.3.7
