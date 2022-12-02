@@ -91,8 +91,6 @@ void main() async {
   await Directory(
     p.join(targetPath, 'very_good_flutter_package'),
   ).delete(recursive: true);
-  await File(p.join(targetPath, '{{project_name.snakeCase()}}', 'LICENSE'))
-      .delete(recursive: true);
 }
 
 class Shell {
