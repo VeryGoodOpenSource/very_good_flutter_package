@@ -1,0 +1,12 @@
+diff --git a/src/very_good_flutter_package/.github/workflows/main.yaml b/src/very_good_flutter_package/.github/workflows/main.yaml
+index b85c81c..3409173 100644
+--- a/src/very_good_flutter_package/.github/workflows/main.yaml
++++ b/src/very_good_flutter_package/.github/workflows/main.yaml
+@@ -18,3 +18,7 @@ jobs:
+     with:
+       flutter_channel: stable
+       flutter_version: 3.3.7
++{{#publishable}}
++  pana:
++    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/pana.yml@v1
++{{/publishable}}

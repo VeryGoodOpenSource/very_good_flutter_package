@@ -33,6 +33,20 @@ void main() async {
     ),
   );
 
+  // Apply patches
+  await Future.wait(
+    Directory('patches').listSync().whereType<File>().map(
+      (file) async {
+        final process = await Process.start('git', ['apply']);
+        process.stdin
+            .write(file.readAsStringSync().replaceAll('src', targetPath));
+        await process.stdin.close();
+
+        await process.exitCode;
+      },
+    ),
+  );
+
   // Convert Values to Variables
   await Future.wait(
     Directory(p.join(targetPath, 'very_good_flutter_package'))

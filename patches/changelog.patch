@@ -1,0 +1,4 @@
+diff --git a/src/very_good_flutter_package/CHANGELOG.md "b/src/very_good_flutter_package/{{#publishable}}CHANGELOG.md{{\\publishable}}"
+similarity index 100%
+rename from src/very_good_flutter_package/CHANGELOG.md
+rename to "src/very_good_flutter_package/{{#publishable}}CHANGELOG.md{{\\publishable}}"

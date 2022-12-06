@@ -17,3 +17,8 @@ vars:
     description: The package description
     default: A very good flutter package
     prompt: What is the project description?
+  publishable:
+    type: boolean
+    description: Whether the generated package is intended to be published.
+    default: false
+    prompt: Will the package be published?

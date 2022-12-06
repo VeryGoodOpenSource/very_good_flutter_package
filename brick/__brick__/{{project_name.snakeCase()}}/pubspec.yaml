@@ -1,7 +1,7 @@
 name: {{project_name.snakeCase()}}
 description: {{{description}}}
 version: 0.1.0+1
-publish_to: none
+{{^publishable}}publish_to: none{{/publishable}}
 
 environment:
   sdk: ">=2.18.0 <3.0.0"
