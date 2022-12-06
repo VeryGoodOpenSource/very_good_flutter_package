@@ -61,6 +61,24 @@ void main() async {
           return;
         }
 
+        if (p.isWithin(
+          p.join(
+            targetPath,
+            'very_good_flutter_package',
+            '.github',
+            'workflows',
+          ),
+          file.path,
+        )) {
+          final contents = file.readAsStringSync();
+          file.writeAsStringSync(
+            contents.replaceFirst(
+              r'group: ${{ github.workflow }}-${{ github.ref }}',
+              r'group: ${{#mustacheCase}}github.workflow{{/mustacheCase}}-${{#mustacheCase}}github.ref{{/mustacheCase}}',
+            ),
+          );
+        }
+
         final contents = await file.readAsString();
         file = await file.writeAsString(
           contents

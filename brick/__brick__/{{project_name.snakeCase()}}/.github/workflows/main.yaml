@@ -1,7 +1,7 @@
 name: ci
 
 concurrency:
-  group: ${{ github.workflow }}-${{ github.ref }}
+  group: ${{#mustacheCase}}github.workflow{{/mustacheCase}}-${{#mustacheCase}}github.ref{{/mustacheCase}}
   cancel-in-progress: true
 
 on:
