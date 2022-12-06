@@ -1,3 +1,7 @@
+# 0.2.0
+
+- **BREAKING** feat: add `publishable` flag (defaults to `false`)
+
 # 0.1.4
 
 - docs: remove copyright header and license from generated code
