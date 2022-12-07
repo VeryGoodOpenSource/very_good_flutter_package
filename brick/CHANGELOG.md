@@ -1,3 +1,8 @@
+# 0.2.1
+
+- fix: windows path resolution
+- fix: GitHub workflow concurrency group
+
 # 0.2.0
 
 - **BREAKING** feat: add `publishable` flag (defaults to `false`)
