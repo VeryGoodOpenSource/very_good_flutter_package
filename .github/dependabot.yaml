@@ -6,11 +6,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
-    directory: "/src"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "pub"
-    directory: "/brick/hooks"
+    directory: "/src/very_good_flutter_package"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
