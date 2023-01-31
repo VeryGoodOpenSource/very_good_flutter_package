@@ -5,7 +5,7 @@ index b85c81c..3409173 100644
 @@ -18,3 +18,7 @@ jobs:
      with:
        flutter_channel: stable
-       flutter_version: 3.3.7
+       flutter_version: 3.7.0
 +{{#publishable}}
 +  pana:
 +    uses: VeryGoodOpenSource/very_good_workflows/.github/workflows/pana.yml@v1
