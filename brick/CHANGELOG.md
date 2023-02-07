@@ -1,3 +1,7 @@
+# 0.2.3
+
+- feat: upgrade to `very_good_analysis ^4.0.0`
+
 # 0.2.2
 
 - feat: upgrade to Flutter 3.7.0
