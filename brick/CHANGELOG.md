@@ -1,3 +1,7 @@
+# 0.2.4
+
+- fix: upgrade workflow to use Flutter 3.7.3 for compatibility with Very Good Analysis
+
 # 0.2.3
 
 - feat: upgrade to `very_good_analysis ^4.0.0`
