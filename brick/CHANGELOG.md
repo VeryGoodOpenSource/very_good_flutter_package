@@ -1,3 +1,8 @@
+# 0.2.5
+
+- feat: update workflows, add spellcheck
+- fix: flutter version on github workflow
+
 # 0.2.4
 
 - fix: upgrade workflow to use Flutter 3.7.3 for compatibility with Very Good Analysis
