@@ -10,17 +10,10 @@ A Very Good Flutter package created by Very Good Ventures.
 
 **❗ In order to start using Very Good Flutter Package you must have the [Flutter SDK][flutter_install_link] installed on your machine.**
 
-Add `very_good_flutter_package` to your `pubspec.yaml`:
-
-```yaml
-dependencies:
-  very_good_flutter_package:
-```
-
-Install it:
+Install via `flutter pub add`:
 
 ```sh
-flutter packages get
+dart pub add very_good_flutter_package
 ```
 
 ---
