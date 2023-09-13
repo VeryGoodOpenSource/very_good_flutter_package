@@ -1,3 +1,8 @@
+# 0.4.1
+
+- feat: upgrade to very_good_analysis ^5.1.0
+- docs: update README.md install instructions
+
 # 0.4.0
 
 - feat!: bump min Dart SDK to 3.0.0
